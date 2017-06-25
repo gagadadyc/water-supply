@@ -24,4 +24,4 @@ nbdist/
 .nb-gradle/
 
 ### 禁止提交包含数据库密码的文件###
-*.properties
+jdbc.properties
