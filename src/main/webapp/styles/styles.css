@@ -1,0 +1,35 @@
+
+body {
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+input {
+    button-radius: 5px;
+}
+
+.button-blue{
+    background-color: #3485FB;
+    color: #FFFFFF;
+    border:0px solid;
+    border-radius:10px;
+
+}
+
+.button-blue2{
+    background-color: #A4D0FA;
+    color:#FFFFFF;
+    border:0px solid;
+    border-radius:10px;
+}
+
+.ziti-hui{
+    font-size:12px;
+    color:#A6A6A6
+}
+
+.input_default {
+    border:1px solid #CCC;
+    line-height:18px;
+    vertical-align:middle;
+    width:160px;
+    border-radius:5px;
+}
