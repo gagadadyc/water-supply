@@ -38,3 +38,24 @@
 6. 管理员管理平台 (未实现) 
 
    管理员可以添加，解雇送水员工，在主页发布公告
+
+## 数据库配置文件
+```
+jdbc.username=
+jdbc.password=
+jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://127.0.0.1:3306/waterspply?useUnicode=true&characterEncoding=UTF-8
+
+
+#<!-- 初始化连接 -->
+initialSize=10
+
+#最大连接数量
+maxActive=50
+
+#<!-- 最大空闲连接 -->
+maxIdle=20
+
+#<!-- 最小空闲连接 -->
+minIdle=5
+```
