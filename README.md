@@ -40,6 +40,8 @@
    管理员可以添加，解雇送水员工，在主页发布公告
 
 ## 数据库配置文件
+
+该文件在/src/main/resources目录下，由于涉及数据库密码，上传时过滤掉了该文件，命名为：jdbc.properties ，源代码如下
 ```
 jdbc.username=
 jdbc.password=
